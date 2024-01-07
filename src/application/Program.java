@@ -31,7 +31,13 @@ public class Program {
     	System.out.println(i);
     }
     
+    System.out.println("\nTest 3:");
     
+    list = sellerDao.findAll();
+    
+    for(Seller i : list) {
+    	System.out.println(i);
+    }
     
     
 	}
